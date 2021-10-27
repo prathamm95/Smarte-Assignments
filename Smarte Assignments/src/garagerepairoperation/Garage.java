@@ -27,6 +27,8 @@ public class Garage {
                     repair.repairVehicle(Vehicles.CAR);
                 } else if (userInput == 2) {
                     repair.repairVehicle(Vehicles.BIKE);
+                } else if (userInput == 9) {
+                    System.out.println(">>THANK YOU FOR USING THE GARAGE!<<\n-----See you soon-----");
                 } else {
                     System.out.println("Sorry this operation is not available");
                 }
@@ -36,8 +38,6 @@ public class Garage {
             }
         } while (userInput != 9);
 
-
-        System.out.println(">>THANK YOU FOR USING THE GARAGE!<<\n-----See you soon-----");
         System.exit(9);
     }
 
